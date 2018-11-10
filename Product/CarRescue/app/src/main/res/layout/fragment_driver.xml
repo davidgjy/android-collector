@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <TextView
+            android:text="姓名:"
+            android:layout_marginLeft="15dp"
+            style="@style/ListText"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+            <EditText
+                android:id="@+id/edt_driver_name"
+                style="@style/FormText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <TextView
+            android:text="身份证号:"
+            android:layout_marginLeft="15dp"
+            style="@style/ListText"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+            <EditText
+                android:id="@+id/edt_idcard_number"
+                style="@style/FormText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <TextView
+            android:text="联系电话:"
+            android:layout_marginLeft="15dp"
+            style="@style/ListText"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+            <EditText
+                android:id="@+id/edt_user_phone"
+                style="@style/FormText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="身份证上传"
+        style="?android:listSeparatorTextViewStyle"
+        />
+
+    <GridView
+        android:id="@+id/grid_idcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="1pt"
+        android:numColumns="3"
+        android:gravity="center">
+    </GridView>
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="驾驶证上传"
+        style="?android:listSeparatorTextViewStyle"
+        />
+
+    <GridView
+        android:id="@+id/grid_driving_license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="1pt"
+        android:numColumns="3"
+        android:gravity="center">
+    </GridView>
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_submit_driver"
+        android:text="提 交"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="20px"
+        style="@style/SubmitButton"
+        />
+</LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include layout="@layout/view_camera_and_title" />
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/list_item_company_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <ImageView
+            android:src="@drawable/company"
+            style="@style/ListIcon"
+            >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:text="公司信息"
+                style="@style/ListText"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:src="@drawable/arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            >
+        </ImageView>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        />
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/list_item_contract_management"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <ImageView
+            android:src="@drawable/agreement"
+            style="@style/ListIcon"
+            >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:text="合同管理"
+                style="@style/ListText"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:src="@drawable/arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            >
+        </ImageView>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        />
+
+    <LinearLayout
+        android:id="@+id/list_item_driver_management"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <ImageView
+            android:src="@drawable/driver"
+            style="@style/ListIcon"
+            >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:text="司机管理"
+                style="@style/ListText"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:src="@drawable/arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            >
+        </ImageView>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        />
+
+    <LinearLayout
+        android:id="@+id/list_item_car_management"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <ImageView
+            android:src="@drawable/trailer"
+            style="@style/ListIcon"
+            >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:text="车辆管理"
+                style="@style/ListText"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:src="@drawable/arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            >
+        </ImageView>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        />
+
+    <include layout="@layout/tab_bar" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.genesis.carrescue">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".controllers.LoginActivity"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controllers.RegisterActivity"
+            android:parentActivityName=".controllers.LoginActivity" />
+        <activity android:name=".controllers.HomeActivity" />
+        <activity android:name=".controllers.OrderActivity" />
+        <activity android:name=".controllers.BusinessActivity" />
+        <activity android:name=".controllers.AccountActivity" />
+        <activity android:name=".controllers.UserInfoActivity" />
+        <activity android:name=".controllers.CompanyInfoActivity" />
+        <activity android:name=".controllers.DriverListActivity" />
+        <activity android:name=".controllers.DriverActivity" />
+        <activity android:name=".controllers.ContractListActivity" />
+        <activity android:name=".controllers.ContractActivity" />
+        <activity android:name=".controllers.CarListActivity" />
+        <activity android:name=".controllers.CarActivity" />
+    </application>
+
+</manifest>
+

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <TextView
+            android:text="公司名称:"
+            android:layout_marginLeft="15dp"
+            style="@style/ListText"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+            <EditText
+                android:id="@+id/edt_company_name"
+                style="@style/FormText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <TextView
+            android:text="公司地址:"
+            android:layout_marginLeft="15dp"
+            style="@style/ListText"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+            <EditText
+                android:id="@+id/edt_company_address"
+                style="@style/FormText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <TextView
+            android:text="营业执照号:"
+            android:layout_marginLeft="15dp"
+            style="@style/ListText"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+            <EditText
+                android:id="@+id/edt_business_license"
+                style="@style/FormText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <TextView
+            android:text="联系电话:"
+            android:layout_marginLeft="15dp"
+            style="@style/ListText"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+            <EditText
+                android:id="@+id/edt_contact_phone"
+                style="@style/FormText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <TextView
+            android:text="第二联系电话:"
+            android:layout_marginLeft="15dp"
+            style="@style/ListText"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+            <EditText
+                android:id="@+id/edt_sub_contact_phone"
+                style="@style/FormText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <TextView
+            android:text="拖车数量:"
+            android:layout_marginLeft="15dp"
+            style="@style/ListText"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+            <EditText
+                android:id="@+id/edt_car_number"
+                style="@style/FormText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+        <TextView
+            android:text="平均年产值:"
+            android:layout_marginLeft="15dp"
+            style="@style/ListText"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+            <EditText
+                android:id="@+id/edt_avg_annual_output"
+                style="@style/FormText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="营业执照"
+        style="?android:listSeparatorTextViewStyle"
+        />
+    
+    <GridView
+        android:id="@+id/grid_business_license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="1pt"
+        android:numColumns="3"
+        android:gravity="center">
+    </GridView>
+
+    <Button
+        android:id="@+id/btn_submit_license"
+        android:text="提 交"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="20px"
+        style="@style/SubmitButton"
+        />
+</LinearLayout>
+
+</ScrollView>
+

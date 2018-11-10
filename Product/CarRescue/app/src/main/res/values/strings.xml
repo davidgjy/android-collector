@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CarRescue</string>
+
+    <string name="account_company_info_no_complete">公司信息未完善</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
