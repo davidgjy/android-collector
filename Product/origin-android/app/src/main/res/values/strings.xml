@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Butler</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="account_company_info_no_complete">公司信息未完善</string>
+    <string name="add_new">新增</string>
+    <string name="date_picker_title">请选择日期</string>
+</resources>
