@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Genesis Origin</string>
+    <string name="product_name_label">Name</string>
+    <string name="product_name_hint">Enter a name for the product</string>
+    <string name="product_description_label">Description</string>
+    <string name="product_description_hint">Enter description for the product</string>
+    <string name="date_picker_title">Date of Last Update:</string>
+    <string name="products_title">Products</string>
+</resources>

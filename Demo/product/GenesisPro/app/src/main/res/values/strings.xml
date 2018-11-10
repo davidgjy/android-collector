@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Genesis Origin</string>
+    <string name="product_name_label">Name</string>
+    <string name="product_name_hint">Enter a name for the product</string>
+    <string name="product_description_label">Description</string>
+    <string name="product_description_hint">Enter description for the product</string>
+    <string name="date_picker_title">Date of Last Update:</string>
+    <string name="new_product">New Product</string>
+    <string name="show_subtitle">Counts</string>
+    <string name="hide_subtitle">Hide</string>
+    <string name="subtitle_format">%1$s products</string>
+    <string name="product_report_text">Send Product Report</string>
+    <string name="product_report">产品名称: %1$s\n
+        产品描述: %2$s\n 创建时间: %3$s\n 最后更新: %4$s
+    </string>
+    <string name="product_report_subject">GenesisPro Product Report</string>
+    <string name="send_report">Send product report via</string>
+</resources>
